@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
+/* Layout */
+.ba-container {
+  text-align: center;
+  font: 400 18px/1.6 'Reem Kufi', sans-serif;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+.ba-map {
+  height: 460px;
+  border-left: 5px solid blue;
+  border-top: 5px solid red;
+  border-right: 5px solid green;
+  border-bottom: 5px solid yellow;
+}
+
+.ba-navigators{
+	margin-top: 25px;
+}
+
+.ba-go{
+	background: transparent;
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.ba-go:hover{
+	background: #17a05d;
+}
